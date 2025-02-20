@@ -1,0 +1,46 @@
+{
+  "name": "DKDX",
+  "homepage": ".",
+  "version": "1.2.0",
+  "main": "start-server.js",
+  "bin": "start-server.js",
+  "scripts": {
+    "start": "node start-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "opn": "^5.5.0",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "**/*.html",
+      "**/*.json",
+      "**/*.zip",
+      "**/*.js",
+      "**/*.css",
+      "**/*.png",
+      "**/*.jpg",
+      "**/*.jpeg",
+      "**/*.gif",
+      "**/*.svg",
+      "**/*.ico",
+      "**/*.json",
+      "**/*.woff2",
+      "**/*.ttf"
+    ],
+    "targets": [
+      "node16-win-x64",
+      "node16-linux-x64",
+      "node16-macos-x64"
+    ],
+    "icon": "./favicon.ico"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
