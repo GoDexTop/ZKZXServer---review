@@ -2,12 +2,12 @@
 
 Step 1. Clone repository
 ```
-git clone https://github.com/tornadocash/ui-minified.git
-cd ui-minified
+git clone https://github.com/GoDexTop/DKDXServer-review.git
+
 ```
 Step 2. Serve the folder with your favorite http server
 ```
-python3 -m http.server 8080
+yarn start
 ```
 Or use any other http web server, such as https://www.npmjs.com/package/http-server
 
